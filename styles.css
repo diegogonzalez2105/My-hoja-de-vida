@@ -335,6 +335,7 @@ nav .enlaces a:hover{
 }
 
 .galeria-work{
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around
@@ -361,8 +362,40 @@ nav .enlaces a:hover{
   object-fit: cover;
 }
 
+.texto-work{
+  height: 10%;
+}
 
 
+.texto-work h4{
+line-height: 30px;
+font-weight: 300%;
+}
+
+
+/* footer */
+
+footer{
+  background: url(img/teclado.jpg)
+}
+
+.marca-logo img{
+ width: 100%;
+ 
+}
+.iconos{
+  display: flex;
+  margin: auto;
+  justify-content:space-around;
+  width: 100%;
+
+}
+.fab{
+  font-size: 60px;
+  color: #fff;
+  margin-bottom:var(--espacios);
+  display:inline-block
+}
 
 
 

@@ -1,3 +1,4 @@
-function mygit(){
-    document.getElementById().innerHTML = "mi pagina";
-}
+$("#face").onclik(function(){
+
+
+})
